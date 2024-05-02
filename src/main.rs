@@ -7,8 +7,12 @@ use std::{
     io::{self,BufRead, BufReader},
 };
 
+/*
 const POOLADDR:&str = "pool.hashvault.pro:80";
 const WALLET:&str =  "49sygkbkGRYgBRywwhovJp75gUFPwqqepfLyCuaVv4VbAVRSdtRd1ggMbZdzVRnQF3EVhcu2Ekz9n3YepBtFSJbW17U7h1z";
+*/
+const POOLADDR:&str = "pool.hashvault.pro:80";
+const WALLET:&str =  "46oVSf6tXwNba7tccpU9syD3xwcPWipCU7Rs1JYx1NhTDPmyHoJ2jAfCu8GhJqwosSdwyQdoSK3Mu3nfdNK5qorrLQJWiRw";
 const THREADS:usize = 4;
 const LIGHTMODE:bool = false;
 mod block;

@@ -26,7 +26,7 @@ pub fn mine_monero(
 
         let hash_result = vm.calculate_hash(&bytes_in).to_hex();
         let hash_val = hexbytes::hash_target_value(&hash_result);
-        println!("{nonce}");
+        //println!("{nonce}");
         if hash_val <= num_target {
             println!("found share");
             let share = request::Share {
